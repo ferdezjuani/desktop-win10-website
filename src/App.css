@@ -1,0 +1,85 @@
+.Desktop {
+  background-image: url("https://mohamedelghandour.github.io/windows-10/img/windows_10.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Desktop-icon {
+  width: 80px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Desktop-icon-img {
+  width: 50px;
+}
+
+.Desktop-icon:hover {
+  background-color: rgba(3, 166, 255, 0.3);
+  outline: 2px solid rgba(3, 166, 255, 0.9);
+}
+
+.Desktop-icon p {
+  text-shadow: 3px 3px 3px #000, -3px -3px 3px #000;
+  margin: 0;
+  color: white;
+}
+
+.Desktop-footer {
+  background-color: rgba(1, 1, 1, 0.8);
+  border-color: rgba(1, 1, 1, 0.8);
+  width: 100%;
+  min-height: 50px;
+  margin-top: auto;
+}
+
+.Desktop-leftSide {
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.Desktop-rightSide {
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+.Desktop-Windows-icon {
+  width: 30px;
+  padding-left: 20px;
+}
+
+.Desktop-Search-icon {
+  width: 30px;
+  padding-left: 30px;
+}
+
+.Desktop-date {
+  color: white;
+}
+
+.Desktop-hour {
+  color: white;
+}
+
+.Desktop-stickyNote-body{
+  padding: 10px;
+}
+
+.Desktop-stickyNote {
+  width: 300px;
+  height: 350px;
+  background-color: rgb(245, 242, 183);
+  outline: 2px solid rgba(40, 39, 39, 0.9);
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
